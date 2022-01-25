@@ -6,4 +6,4 @@ git commit -m "message" : helps to provide the comment /message there in 1 line 
 git log : shows the history of file commits in the git
 git log --oneline : shows log/histry in oneine.
 git status :shows the status of git operation.
-
+git diff : to find the differences between the files.
