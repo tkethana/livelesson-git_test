@@ -6,4 +6,8 @@ git commit -m "message" : helps to provide the comment /message there in 1 line 
 git log : shows the history of file commits in the git
 git log --oneline : shows log/histry in oneine.
 git status :shows the status of git operation.
-git diff : to find the differences between the files.
+git diff : to find the differences between current uncommited state and the previous git known state.
+git diff --staged : compares the file in staging area with the last known state of git.
+git diff HEAD~1 : compares the current commit with the 1 previous to it. <relative>
+git diff <hash>:compares the current commit with that previous commit <hash> state.
+
