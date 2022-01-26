@@ -10,4 +10,7 @@ git diff : to find the differences between current uncommited state and the prev
 git diff --staged : compares the file in staging area with the last known state of git.
 git diff HEAD~1 : compares the current commit with the 1 previous to it. <relative>
 git diff <hash>:compares the current commit with that previous commit <hash> state.
-
+git restore --source <hash> <filename>
+git checkout <hash> <filename>
+git checkout <hash> : if you forget filename, then will endup in detached head mode.
+git switch main / git checkout main : takes us back to previous state.
